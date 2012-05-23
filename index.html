@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="jQuery Horizontal Slideshow (hslide) : jQuery Horizontal Slideshow" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>jQuery Horizontal Slideshow (hslide)</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/yusufnb/hslide">View on GitHub</a>
+
+          <h1 id="project_title">jQuery Horizontal Slideshow (hslide)</h1>
+          <h2 id="project_tagline">jQuery Horizontal Slideshow</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/yusufnb/hslide/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/yusufnb/hslide/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>jQuery Horizontal Slider Plugin</h1>
+
+<h2>Usage</h2>
+
+<div class="highlight">
+<pre><span class="nx">$</span><span class="p">(</span><span class="s1">'#slide'</span><span class="p">).</span><span class="nx">hslide</span><span class="p">(</span> <span class="nx">options</span> <span class="p">)</span>
+</pre>
+</div>
+
+
+<h2>Options</h2>
+
+<ul>
+<li>delay         - the interval of slideshow</li>
+<li>speed         - the duration of sliding animation</li>
+</ul><h2>Example:</h2>
+
+<pre><code>    &lt;body&gt;
+    &lt;style&gt;
+        #slider {width: 450px; height: 250px; padding:0; border:0;}
+        #slider img {padding: 0; margin:0; border:0;}
+        #slider .clicker a {width: 11px; height: 11px; background: #fff; margin-right: 2px;}
+        #slider .clicker a.active {background: #ff0;}
+    &lt;/style&gt;
+
+    &lt;script src="http://code.jquery.com/jquery-1.5.2.min.js"&gt;&lt;/script&gt; 
+    &lt;script src="jquery.hslide.js"&gt;&lt;/script&gt; 
+    &lt;script&gt;
+        $(function(){
+            $('#slider').hslide();
+        });
+    &lt;/script&gt;
+
+    &lt;div id="slider"&gt;
+        &lt;div&gt;&lt;img src="http://placehold.it/450x250&amp;text=1"&gt;&lt;/img&gt;&lt;/div&gt;
+        &lt;div&gt;&lt;img src="http://placehold.it/450x250&amp;text=2"&gt;&lt;/img&gt;&lt;/div&gt;
+        &lt;div&gt;&lt;img src="http://placehold.it/450x250&amp;text=3"&gt;&lt;/img&gt;&lt;/div&gt;
+        &lt;div&gt;&lt;img src="http://placehold.it/450x250&amp;text=4"&gt;&lt;/img&gt;&lt;/div&gt;
+        &lt;div&gt;&lt;img src="http://placehold.it/450x250&amp;text=5"&gt;&lt;/img&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/body&gt;
+
+</code></pre>
+
+<h2>License</h2>
+
+<p>This plugin is dual-licensed under the GNU General Public License and the MIT License and
+is copyright 2011 Yusuf Najmuddin <a href="mailto:yusufnb@gmail.com">yusufnb@gmail.com</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">jQuery Horizontal Slideshow (hslide) maintained by <a href="https://github.com/yusufnb">yusufnb</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
