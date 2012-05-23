@@ -6,8 +6,8 @@ $('#slide').hslide( options )
 ```
 
 ## Options
-delay         - the interval of slideshow
-speed         - the duration of sliding animation
+* delay         - the interval of slideshow
+* speed         - the duration of sliding animation
 
 ## Example:
 ```
